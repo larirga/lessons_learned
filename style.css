@@ -5,20 +5,25 @@ body {
 #cabecalho{
     background-color: #e09f3e;
     font-family: monospace;
-    padding: 0.5%;
+    position: fixed;
+    top: 0;
     color: grey;
-    text-decoration: none;
 }
 
 #minha_foto{
     width: 20%;
-    border-radius: 100%
+    border-radius: 100%;
+}
+
+#links_navegacao{
+    background-color: #e09f3e;
 }
 
 #barra-eu{
     border:#e09f3e solid;
     text-align: center;
-    font-family: monospace
+    font-family: monospace;
+    font-size: 18px;
 }
 #artigo{
     font-family: monospace
