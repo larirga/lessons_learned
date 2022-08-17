@@ -4,7 +4,6 @@ body {
 h2{
     font-family: monospace;
 }
-
 #cabecalho{
     background-color: #e09f3e;
     font-family: monospace;
@@ -13,46 +12,45 @@ h2{
     color: grey;
     font-size: 80%
 }
-
 #minha_foto{
     width: 20%;
     border-radius: 100%;
     display: inline-block;
     float: right;
 }
-
 #links_navegacao{
     background-color: #e09f3e;
     padding: 10%;
     font-family: monospace;
     color: gray;
-
-
 }
-
 #barra-eu{
     border:#e09f3e solid;
     text-align: center;
     font-family: monospace;
     font-size: 18px;
-    padding: 5%
+    padding: 5%;
+    display: inline-block;
+    float: right;
+    width: 5%;
+    font-size: 7px;
+    padding: 0;
+    margin: 20px;
+
 }
 #artigo{
     font-family: monospace;
     line-height: 1.6;
 }
-
-#rodape{
-    background-color: #e09f3e;
-    font-family: monospace;
-}
-
 #licoes_aprendidas{
     font-family: monospace;
     border: #e09f3e solid
 }
-
 #licoes_a_aprender{
     font-family: monospace;
     border: #e09f3e solid
+}
+#rodape{
+    background-color: #e09f3e;
+    font-family: monospace;
 }
