@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 251, 251)
 }
+h2{
+    font-family: monospace;
+}
 
 #cabecalho{
     background-color: #e09f3e;
@@ -35,9 +38,21 @@ body {
     padding: 5%
 }
 #artigo{
-    font-family: monospace
+    font-family: monospace;
+    line-height: 1.6;
 }
+
 #rodape{
     background-color: #e09f3e;
     font-family: monospace;
+}
+
+#licoes_aprendidas{
+    font-family: monospace;
+    border: #e09f3e solid
+}
+
+#licoes_a_aprender{
+    font-family: monospace;
+    border: #e09f3e solid
 }
