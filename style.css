@@ -8,15 +8,23 @@ body {
     position: fixed;
     top: 0;
     color: grey;
+    font-size: 80%
 }
 
 #minha_foto{
     width: 20%;
     border-radius: 100%;
+    display: inline-block;
+    float: right;
 }
 
 #links_navegacao{
     background-color: #e09f3e;
+    padding: 10%;
+    font-family: monospace;
+    color: gray;
+
+
 }
 
 #barra-eu{
@@ -24,8 +32,12 @@ body {
     text-align: center;
     font-family: monospace;
     font-size: 18px;
+    padding: 5%
 }
 #artigo{
     font-family: monospace
 }
-
+#rodape{
+    background-color: #e09f3e;
+    font-family: monospace;
+}
