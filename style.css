@@ -25,30 +25,35 @@ h2{
     color: gray;
 }
 #barra-eu{
-    border:#e09f3e solid;
-    text-align: center;
+    border:#e09f3e solid 10px;
     font-family: monospace;
+    text-align:inherit;
     font-size: 18px;
-    padding: 5%;
-    display: inline-block;
-    float: right;
-    width: 5%;
-    font-size: 7px;
     padding: 0;
-    margin: 20px;
-
+    display: inline-block;
+    float: none;
+    position: fixed;
+    right: 0%;
+    width: 15%;
+    font-size: 10px;
+    padding: 2%;
+    margin: 10px;
 }
 #artigo{
     font-family: monospace;
     line-height: 1.6;
+    display: inline-block;
+    float: none;
+    font-size: 80%;
+    padding: 0;
+    margin: 15px;
+    word-wrap: break-word;
 }
 #licoes_aprendidas{
     font-family: monospace;
-    border: #e09f3e solid
 }
 #licoes_a_aprender{
     font-family: monospace;
-    border: #e09f3e solid
 }
 #rodape{
     background-color: #e09f3e;
